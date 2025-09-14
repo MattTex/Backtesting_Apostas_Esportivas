@@ -7,6 +7,11 @@ import plotly.express as px
 import io
 import re
 from datetime import datetime
+import zipfile, os
+
+if not os.path.exists("banco_test.db") and os.path.exists("banco_test.zip"):
+    with zipfile.ZipFile("banco_test.zip", "r") as zip_ref:
+        zip_ref.extractall(".")
 
 # --------------------------
 # Config / Helpers
@@ -499,3 +504,4 @@ else:
     st.info("Nenhum detalhe de apostas para exportar (nenhum mercado com dados).")
 
 st.info("Dica: use a opção 'max (melhor odd)' se quiser simular com a melhor odd disponível entre bookmakers (backtest mais otimista).")
+
