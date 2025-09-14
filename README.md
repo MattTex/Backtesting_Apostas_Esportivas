@@ -9,7 +9,8 @@ Dashboard interativa para análise e backtesting de estratégias de apostas espo
 - Código aberto e facilmente adaptável para integrar dados reais da [API-Football](https://www.api-football.com/).
 
 ## 🚀 Demonstração
-🔗 **App online**: [https://SEU-USUARIO-backtest.streamlit.app](https://SEU-USUARIO-backtest.streamlit.app)  
-📂 **Código fonte**: [https://github.com/SEU-USUARIO/backtest-futebol-dashboard](https://github.com/SEU-USUARIO/backtest-futebol-dashboard)
+🔗 **App online**: [https://MattTex-backtest.streamlit.app](https://MattTex-backtest.streamlit.app)  
+📂 **Código fonte**: [https://github.com/MattTex/Backtesting_Apostas_Esportivas]((https://github.com/MattTex/Backtesting_Apostas_Esportivas))
 
 ## 📂 Estrutura do repositório
+
